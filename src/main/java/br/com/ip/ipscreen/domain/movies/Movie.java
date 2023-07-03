@@ -19,8 +19,8 @@ public class Movie {
     public Movie(MovieDTO movieDTO) {
         this.name = movieDTO.name();
         this.duration = movieDTO.duration();
-        this.releaseYear = movieDTO.release_year();
-        this.movieGenre = movieDTO.movie_genre();
+        this.releaseYear = movieDTO.releaseYear();
+        this.movieGenre = movieDTO.movieGenre();
     }
 
     public String getName() {
